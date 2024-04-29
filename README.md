@@ -6,7 +6,10 @@ The complete code is still being organized and will be released upon acceptance 
 
 # Installation
 torch  1.8.1
+
 python 3.8.15
+
 gym    0.18.0
+
 numpy  1.24.1
 
