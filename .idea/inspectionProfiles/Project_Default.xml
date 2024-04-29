@@ -1,0 +1,50 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyArgumentListInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="13">
+            <item index="0" class="java.lang.String" itemvalue="opencv-python" />
+            <item index="1" class="java.lang.String" itemvalue="ptan" />
+            <item index="2" class="java.lang.String" itemvalue="nltk" />
+            <item index="3" class="java.lang.String" itemvalue="torch" />
+            <item index="4" class="java.lang.String" itemvalue="numpy" />
+            <item index="5" class="java.lang.String" itemvalue="torchvision" />
+            <item index="6" class="java.lang.String" itemvalue="pytorch-ignite" />
+            <item index="7" class="java.lang.String" itemvalue="atari-py" />
+            <item index="8" class="java.lang.String" itemvalue="tensorflow" />
+            <item index="9" class="java.lang.String" itemvalue="tensorboard" />
+            <item index="10" class="java.lang.String" itemvalue="tensorboardX" />
+            <item index="11" class="java.lang.String" itemvalue="gym" />
+            <item index="12" class="java.lang.String" itemvalue="pybullet" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyTypeCheckerInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnboundLocalVariableInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="NEW_py_ver.TSP.POMO.train_n20.utils" />
+          <option value="NEW_py_ver.TSP.POMO.TSPTester.utils" />
+          <option value="NEW_py_ver.TSP.POMO.TSPTester.AverageMeter" />
+          <option value="NEW_py_ver.TSP.POMO.TSPTrainer.utils" />
+          <option value="NEW_py_ver.TSP.POMO.TSPTrainer.get_result_folder" />
+          <option value="NEW_py_ver.TSP.POMO.TSPTrainer.LogData" />
+          <option value="NEW_py_ver.TSP.POMO.TSPTrainer.TimeEstimator" />
+          <option value="NEW_py_ver.TSP.POMO.TSPTrainer.util_save_log_image_with_label" />
+          <option value="NEW_py_ver.TSP.POMO.TSPTrainer.util_print_log_array" />
+          <option value="NEW_py_ver.TSP.POMO.TSPTrainer.AverageMeter" />
+          <option value="NEW_py_ver.TSP.POMO.TSPTester.TimeEstimator" />
+          <option value="NEW_py_ver.TSP.POMO.TSPTester.get_result_folder" />
+          <option value="NEW_py_ver.TSP.POMO.train_n20.create_logger" />
+          <option value="NEW_py_ver.TSP.POMO.train_n20.copy_all_src" />
+          <option value="int.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
