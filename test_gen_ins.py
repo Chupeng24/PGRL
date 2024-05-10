@@ -401,7 +401,7 @@ if __name__ == "__main__":
     configs.n_j = 6
     configs.n_m = 6
     ref = np.array([2000, 2000, 2000])
-    net_save_path = 'saved_network_MOFJSP/3_obj/12-14-20-58/_256_44.47548156650001'
+    net_save_path = 'saved_network_MOFJSP/3_obj/6x6'
     main(n_j=6, n_m=6, path=net_save_path, ref=ref, n_sols=15, save_flag=True)
     time.sleep(1)
 
@@ -410,7 +410,7 @@ if __name__ == "__main__":
     configs.n_j = 10
     configs.n_m = 10
     ref = np.array([2500, 2500, 2500])
-    net_save_path = 'saved_network_MOFJSP/3_obj/12-15-02-15/_73_25.064545318528005'
+    net_save_path = 'saved_network_MOFJSP/3_obj/10x10'
     main(n_j=10, n_m=10, path=net_save_path, ref=ref, n_sols=15, save_flag=True)
     time.sleep(1)
 
@@ -419,7 +419,7 @@ if __name__ == "__main__":
     configs.n_j = 15
     configs.n_m = 15
     ref = np.array([5000, 5000, 5000])
-    net_save_path = 'saved_network_MOFJSP/3_obj/12-15-02-15/_73_25.064545318528005'
+    net_save_path = 'saved_network_MOFJSP/3_obj/15x15'
     main(n_j=15, n_m=15, path=net_save_path, ref=ref, n_sols=15, save_flag=True)
     time.sleep(1)
 
@@ -428,7 +428,7 @@ if __name__ == "__main__":
     configs.n_j = 20
     configs.n_m = 20
     ref = np.array([5000, 5000, 5000])
-    net_save_path = 'saved_network_MOFJSP/3_obj/12-15-02-15/_73_25.064545318528005'
+    net_save_path = 'saved_network_MOFJSP/3_obj/10x10'
     main(n_j=20, n_m=20, path=net_save_path, ref=ref, n_sols = 15, save_flag=True)
     time.sleep(1)
     #
@@ -438,7 +438,7 @@ if __name__ == "__main__":
     configs.n_j = 30
     configs.n_m = 20
     ref = np.array([8000, 8000, 8000])
-    net_save_path = 'saved_network_MOFJSP/3_obj/12-15-02-15/_73_25.064545318528005'
+    net_save_path = 'saved_network_MOFJSP/3_obj/10x10'
     main(n_j=20, n_m=20, path=net_save_path, ref=ref, n_sols = 15, save_flag=True)
     time.sleep(1)
 
@@ -447,7 +447,7 @@ if __name__ == "__main__":
     configs.n_j = 40
     configs.n_m = 20
     ref = np.array([10000, 10000, 10000])
-    net_save_path = 'saved_network_MOFJSP/3_obj/12-15-02-15/_73_25.064545318528005'
+    net_save_path = 'saved_network_MOFJSP/3_obj/10x10'
     main(n_j=20, n_m=20, path=net_save_path, ref=ref, n_sols=15, save_flag=True)
     time.sleep(1)
 
@@ -456,7 +456,7 @@ if __name__ == "__main__":
     configs.n_j = 50
     configs.n_m = 20
     ref = np.array([12000, 12000, 12000])
-    net_save_path = 'saved_network_MOFJSP/3_obj/12-15-02-15/_73_25.064545318528005'
+    net_save_path = 'saved_network_MOFJSP/3_obj/10x10'
     main(n_j=20, n_m=20, path=net_save_path, ref=ref, n_sols = 15, save_flag=True)
     time.sleep(1)
 

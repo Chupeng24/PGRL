@@ -324,7 +324,7 @@ if __name__ == '__main__':
     #                pref_dim=3,
     #                device=device)
     # net_save_path = 'saved_network_MOFJSP/3_obj/07-07-10-22/_81_21.15984152106875'
-    net_save_path = 'saved_network_MOFJSP/3_obj/12-15-02-15/_73_25.064545318528005'
+    net_save_path = 'saved_network_MOFJSP/3_obj/10x10'
     # job_path = './{}.pth'.format('policy_job')
     # mch_path = './{}.pth'.format('policy_mch')
     #
@@ -338,9 +338,9 @@ if __name__ == '__main__':
     # agent.policy_mch.eval()
 
     save_res_dict = {}
-    save_res_file_name = 'DRL_public_benchmark_parallel2.csv'
+    save_res_file_name = 'DRL_public_benchmark.csv'
     save_time_dict = {'ins_name':[], 'spend_time':[]}
-    save_time_file_name = 'DRL_public_benchamrk_time2.csv'
+    save_time_file_name = 'DRL_public_benchamrk.csv'
 
     mp.set_start_method(method='forkserver', force=True)
     PROCESSES_COUNT = 3
