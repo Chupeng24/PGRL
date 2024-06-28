@@ -214,7 +214,7 @@ if __name__ == "__main__":
     print(device)
 
     # train_dataset = FJSPDataset(configs.n_j, configs.n_m, configs.low, configs.high, MAX_BATCH_EPISODES * MAX_BATCH_STEPS, 400)
-    validat_dataset = FJSPDataset(configs.n_j, configs.n_m, configs.low, configs.high, 128, 200)
+    validat_dataset = FJSPDataset(configs.n_j, configs.n_m, configs.low, configs.high, 128, 400)
     valid_loader = DataLoader(validat_dataset, batch_size=configs.batch_size)
 
     # g_pool_step = g_pool_cal(graph_pool_type=configs.graph_pool_type,
