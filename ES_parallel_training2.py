@@ -213,7 +213,7 @@ if __name__ == "__main__":
     device = torch.device(configs.device)
     print(device)
 
-    # train_dataset = FJSPDataset(configs.n_j, configs.n_m, configs.low, configs.high, MAX_BATCH_EPISODES * MAX_BATCH_STEPS, 200)
+    # train_dataset = FJSPDataset(configs.n_j, configs.n_m, configs.low, configs.high, MAX_BATCH_EPISODES * MAX_BATCH_STEPS, 400)
     validat_dataset = FJSPDataset(configs.n_j, configs.n_m, configs.low, configs.high, 128, 200)
     valid_loader = DataLoader(validat_dataset, batch_size=configs.batch_size)
 
