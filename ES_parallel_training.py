@@ -220,8 +220,8 @@ def main(mp, index=0):
     device = torch.device(configs.device)
     print(device)
 
-    # train_dataset = FJSPDataset(configs.n_j, configs.n_m, configs.low, configs.high, MAX_BATCH_EPISODES * MAX_BATCH_STEPS, 200)
-    validat_dataset = FJSPDataset(configs.n_j, configs.n_m, configs.low, configs.high, configs.batch_size, 200)
+    # train_dataset = FJSPDataset(configs.n_j, configs.n_m, configs.low, configs.high, MAX_BATCH_EPISODES * MAX_BATCH_STEPS, 400)
+    validat_dataset = FJSPDataset(configs.n_j, configs.n_m, configs.low, configs.high, configs.batch_size, 400)
     valid_loader = DataLoader(validat_dataset, batch_size=configs.batch_size)
 
     # g_pool_step = g_pool_cal(graph_pool_type=configs.graph_pool_type,
